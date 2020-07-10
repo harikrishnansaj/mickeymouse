@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Bar</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body style="padding-top: 70px;">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<div class="container">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Info</a>
+        <div class="dropdown-menu">
+        	<a class="dropdown-item" href="#">Info 1</a>
+        	<a class="dropdown-item" href="#">Info 2</a>
+        	<a class="dropdown-item" href="#">Info 3</a>
+      	</div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li> 
+       <li class="nav-item">
+       	<form class="form-inline" action="#">
+    	<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    	<button class="btn btn-warning" type="submit"><span class="fa fa-search"></span> Search</button>
+  		</form>
+      </li>  
+    </ul>
+  </div>  
+  </div>
+</nav>
+
+<div class="container-fluid" >
+<div class="row">
+	<div class="col-md-12">	<p class="text-justify">
+    <h1> MICKEY MOUSE </h1>
+		Mickey Mouse is a cartoon character who has become an icon for the Walt Disney Company. Mickey Mouse is short for Mitchell Mouse.
+		It was created in 1928 by Walt Disney and Ub Iwerks and voiced by Walt Disney.
+        The first appearance of Mickey Mouse was in Plane Crazy on May 15, 1928. But the Walt Disney Company celebrates Mickey Mouse birth as November 18, 1928 upon the release of Steamboat Willie, because it is the first Mickey Mouse Cartoon with sound.
+		The anthropomorphic mouse has developed along the years. He first appeared in color in 1935. The first Technicolor Disney film was Flowers and Trees from 1932. He also evolved from being simply a character in animated cartoons and comic strips to
+		become one of the most recognizable symbols in the world.Mickey's popularity has grown around the world. This was due to his angelic nature. Mickey never does anything immoral. However, in 2009 the Walt Disney Company announced that they will begin 
+		to re-brand the Mickey Mouse character by moving away from his pleasant, cheerful image and reintroducing the more devious side of his personality, starting with the upcoming Epic Mickey, a Mickey Mouse video game. 
+		The Walt Disney company thus intends to show the mischievous side of Mickey's personality.
+	</p>
+</div>
+<div class="col-lg-4"><h1>For Other Disney Characters</h1>
+	<ul class="nav disney-bar">
+		<li class="nav-item">
+			<a class="nav-link" href="#">Minnie Mouse</a>
+			<a class="nav-link" href="#">Donald Duck</a>
+			<a class="nav-link" href="#">Elsa:FROZEN</a>
+			<a class="nav-link" href="#">MOANA</a>
+			<a class="nav-link" href="#">SHREK</a>
+		</li> 
+	</ul>
+</div>
+	
+<div class="col-lg-4"><h1>Images</h1>
+	<img src="image/mickey1.png">
+	<img src="image/mickey3.png">
+					
+
+
+
+
+
+</div>
+	<div class="col-lg-4">
+		<h2>To Know More And For Regular Updates</h2>
+		<form action="#">
+  		<div class="form-group">
+    		<label for="uname">Username</label>
+    		<input type="uname" class="form-control" placeholder="Enter user name" id="uname">
+  		</div>
+  		<div class="form-group">
+    		<label for="pwd">Password:</label>
+    		<input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  		</div>
+  		<div class="form-group form-check">
+    		<label class="form-check-label">
+      		<input class="form-check-input" type="checkbox"> Remember me
+    		</label>
+  		</div>
+  			<button type="submit" class="btn btn-warning">Submit</button>
+		</form>
+	</div>	
+</div>
+
+</body>
+</html>
